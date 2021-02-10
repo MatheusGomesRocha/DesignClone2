@@ -1,0 +1,113 @@
+span {  /* Todos Span */
+    color: #fff;
+}
+
+/* Div Father */
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../img/header_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: Candara;
+}
+
+.headerHidden {     /* Div escondida para pôr background-color transparent escuro por cima da image */
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* */
+
+/*Div Children Top */
+.headerTop {        /* Div Father Top */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7vh;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+}
+
+.headerTop .left {          /* Div left */
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.headerTop .right {     /* Div Right */
+    display: flex;
+    height: 7vh;
+    align-items: center;
+}
+
+.headerTop .right span {        /* Todos Span da Div Right */
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.headerTop .right .line {
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 7vh;
+}
+.headerTop .right .icons {
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerTop .right .icons span {
+}
+/* */
+
+
+/* Div Children Bottom */
+.headerBottom {         /* Div Father Bottom */
+    position: relative;
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerBottom .center {     /* Div centralizada */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerBottom .center .top {    /* Span top */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.headerBottom .center .center {     /* Span mid */
+    font-size: 60px;
+    width: 60%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.headerBottom .center .bottom {     /* Span Bottom */
+    font-size: 18px;
+    width: 60%;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+/* */
+
+
+/*Hovers*/
+.headerTop .right span:hover {          /* Span da direita que imita um link "a" */
+    cursor: pointer;
+}
+/* */
