@@ -1,7 +1,3 @@
-span {  /* Todos Span */
-    color: #fff;
-}
-
 /* Div Father */
 .header {
     display: flex;
@@ -12,6 +8,7 @@ span {  /* Todos Span */
     background-repeat: no-repeat;
     position: relative;
     font-family: Candara;
+    color: #fff;
 }
 
 .headerHidden {     /* Div escondida para pôr background-color transparent escuro por cima da image */

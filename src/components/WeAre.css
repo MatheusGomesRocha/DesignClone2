@@ -1,0 +1,75 @@
+.weAre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    font-family: Candara;
+}
+
+.weAre .center {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.weAre .center .centerTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weAre .center .centerTop .line {
+    width: 20%;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #0CB4CE;
+    margin-top: 15px;
+}
+
+.weAre .span1 {
+    font-size: 50px;
+}
+
+.weAre .center .row {
+    display: flex;
+    padding: 50px;
+}
+
+.weAre .center .row .rowItem {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weAre .center .row .rowItem span {
+    font-weight: 700;
+    color: #666;
+    margin-top: 10px;
+    text-transform: uppercase;
+    transition: 500ms;
+}
+
+.weAre .center .bigText {
+    height: 150px;
+}
+
+.weAre .center .bigText .span2{
+    color: #999;
+    animation: fade 1s;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+
+.weAre .center .row .rowItem:hover {
+    cursor: pointer;
+}
+
+
+@keyframes fade {
+    from{opacity: 0}
+    top{opacity: 1}
+}
