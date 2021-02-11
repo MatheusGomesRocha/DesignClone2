@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import WeAre from "./components/WeAre";
+import About from "./components/About";
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
       <Header />
 
       <WeAre />
+
+      <About />
     </div>
   );
 }

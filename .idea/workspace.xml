@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="413196ad-e5cc-4a0e-b8d4-156a09b8265a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/About.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WeAre.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WeAre.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -60,7 +62,8 @@
       <workItem from="1612966125866" duration="253000" />
       <workItem from="1612971871463" duration="40000" />
       <workItem from="1612990669729" duration="4213000" />
-      <workItem from="1613054438543" duration="4782000" />
+      <workItem from="1613054438543" duration="4798000" />
+      <workItem from="1613079067850" duration="804000" />
     </task>
     <servers />
   </component>
@@ -85,7 +88,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/WeAre.js</url>
           <line>70</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
