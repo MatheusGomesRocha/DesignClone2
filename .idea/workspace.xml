@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="413196ad-e5cc-4a0e-b8d4-156a09b8265a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/WeAre.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/WeAre.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/svg/chemistry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/svg/flash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/svg/infinity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/svg/lightining.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/svg/mic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WeAre.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WeAre.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +60,7 @@
       <workItem from="1612966125866" duration="253000" />
       <workItem from="1612971871463" duration="40000" />
       <workItem from="1612990669729" duration="4213000" />
-      <workItem from="1613054438543" duration="3833000" />
+      <workItem from="1613054438543" duration="4782000" />
     </task>
     <servers />
   </component>

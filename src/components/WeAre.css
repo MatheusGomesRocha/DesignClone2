@@ -1,4 +1,4 @@
-.weAre {
+.weAre {    /* Div Father */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,7 +6,7 @@
     font-family: Candara;
 }
 
-.weAre .center {
+.weAre .center {        /* Div children */
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -14,13 +14,14 @@
     text-align: center;
 }
 
-.weAre .center .centerTop {
+/* Div Children Top */
+.weAre .center .centerTop {     /* Div Top que contém o texto e o Line */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.weAre .center .centerTop .line {
+.weAre .center .centerTop .line {       /* Line */
     width: 20%;
     height: 2px;
     border-radius: 2px;
@@ -28,48 +29,56 @@
     margin-top: 15px;
 }
 
-.weAre .span1 {
+.weAre .span1 {     /* Texto */
     font-size: 50px;
 }
+/** */
 
-.weAre .center .row {
+/* Div children middle */
+.weAre .center .row {       /*  Div alinhada */
     display: flex;
     padding: 50px;
 }
 
-.weAre .center .row .rowItem {
+.weAre .center .row .rowItem {      /* Item da Div alinhada */
     margin-left: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.weAre .center .row .rowItem span {
+.weAre .center .row .rowItem span {     /* Texto da Div alinhada */
     font-weight: 700;
     color: #666;
     margin-top: 10px;
     text-transform: uppercase;
     transition: 500ms;
 }
+/** */
 
-.weAre .center .bigText {
+/* Div Children Bottom */
+.weAre .center .bigText {           /* Div All, para não mudar o tamanho do texto e dá um efeito ruim */
     height: 150px;
 }
 
-.weAre .center .bigText .span2{
+.weAre .center .bigText .span2{     /* Texto */
     color: #999;
     animation: fade 1s;
     font-size: 17px;
     line-height: 1.5;
 }
+/** */
 
-
-.weAre .center .row .rowItem:hover {
+/* Hovers */
+.weAre .center .row .rowItem:hover {        /* Div Children Middle Alinhada Item */
     cursor: pointer;
 }
+/** */
 
 
-@keyframes fade {
+/* Animation */
+@keyframes fade {       /* Usada no Texto do Div Children Bottom para dar efeito de fade ao trocar o foco */
     from{opacity: 0}
     top{opacity: 1}
 }
+/** */
