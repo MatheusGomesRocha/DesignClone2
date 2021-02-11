@@ -1,7 +1,9 @@
 .about {
-    padding: 100px 0;
+    padding: 80px 50px;
     background-color: #f5f5f5;
     font-family: Candara;
+    display: flex;
+    flex-direction: column;
 }
 
 .about .topText {
@@ -13,4 +15,5 @@
     margin-top: 20px;
     line-height: 1.5;
     color: #999;
+    width: 50%;
 }
