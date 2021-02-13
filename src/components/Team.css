@@ -5,6 +5,7 @@
     flex-direction: column;
 }
 
+/**
 .team .divText {
     display: flex;
     flex-direction: column;
