@@ -45,23 +45,23 @@ export default () => {
 
                 <div className={"row"}>
                     <div onClick={() => handleClick(1)} className={"rowItem"}>
-                        <ChemestryIcon fill={item1 ? '#0CB4CE' : '#000'}/>
-                        <span style={{color: item1 ? '#0CB4CE' : '#000'}}>Experiences</span>
+                        <ChemestryIcon fill={item1 ? '#0CB4CE' : '#fff'}/>
+                        <span style={{color: item1 ? '#0CB4CE' : '#fff'}}>Experiences</span>
                     </div>
 
                     <div onClick={() => handleClick(2)} className={"rowItem"}>
-                        <LightningIcon fill={item2 ? '#0CB4CE' : '#000'}/>
-                        <span style={{color: item2 ? '#0CB4CE' : '#000'}}>Capabilities</span>
+                        <LightningIcon fill={item2 ? '#0CB4CE' : '#fff'}/>
+                        <span style={{color: item2 ? '#0CB4CE' : '#fff'}}>Capabilities</span>
                     </div>
 
                     <div onClick={() => handleClick(3)} className={"rowItem"}>
-                        <InfinityIcon fill={item3 ? '#0CB4CE' : '#000'}/>
-                        <span style={{color: item3 ? '#0CB4CE' : '#000'}}>Our Strategy</span>
+                        <InfinityIcon fill={item3 ? '#0CB4CE' : '#fff'}/>
+                        <span style={{color: item3 ? '#0CB4CE' : '#fff'}}>Our Strategy</span>
                     </div>
 
                     <div onClick={() => handleClick(4)} className={"rowItem"}>
-                        <MicIcon fill={item4 ? '#0CB4CE' : '#000'}/>
-                        <span style={{color: item4 ? '#0CB4CE' : '#000'}}>Our Mission</span>
+                        <MicIcon fill={item4 ? '#0CB4CE' : '#fff'}/>
+                        <span style={{color: item4 ? '#0CB4CE' : '#fff'}}>Our Mission</span>
                     </div>
                 </div>
 
