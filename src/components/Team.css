@@ -38,7 +38,7 @@
 /** */
 
 
-/** Div Carousel, com as imagens dos empregados *//
+/** Div Carousel, com as imagens dos empregados */
 .team .carousel {       /* Div Father */
     display: flex;
     grid-gap: 20px;
