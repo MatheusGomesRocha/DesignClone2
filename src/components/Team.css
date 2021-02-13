@@ -60,6 +60,7 @@
     border-radius: 10px;
 }
 .team .carousel .imgDiv .imgHidden {        /* Div escondida mostrada ao passar mouse em cima da .imgDiv */
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -99,8 +100,9 @@
 /** */
 
 /** Hovers */
-.team .carousel .imgDiv:hover {     /* Div com images */
+.team .carousel .imgDiv:hover .imgHidden{     /* Div com images */
     cursor: pointer;
+    display: flex;
 }
 .team .carousel .imgDiv .imgHidden .iconDiv .iconBallDiv:hover {        /* Div com o icon de redes sociais */
     background-color: #0CB4CE;
