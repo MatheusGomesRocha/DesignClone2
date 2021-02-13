@@ -40,30 +40,25 @@
 }
 
 .team .carousel {
-    display: grid;
-    grid-template-columns: 45% 45%;
+    display: flex;
     grid-gap: 20px;
-    margin-top: 100px;
+    padding-top: 50px;
     justify-content: center;
     width: 100%;
+    background-color: #fff;
 }
-
-
-
 .team .carousel .imgDiv {
     max-height: 500px;
-    max-width: 100%;
+    width: 100%;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
 }
-
 .team .carousel .imgDiv .img {
     height: 500px;
     width: 100%;
     border-radius: 10px;
 }
-
 .team .carousel .imgDiv .imgHidden {
     flex-direction: column;
     align-items: center;
@@ -77,22 +72,38 @@
     top: 0;
     animation: fadeTeam 500ms;
 }
-
 .team .carousel .imgDiv .imgHidden .name {
     color: #fff;
     font-size: 18px;
     font-weight: bold;
 }
-
 .team .carousel .imgDiv .imgHidden .area {
     color: #999;
     font-size: 15px;
     margin-top: 5px;
 }
-
+.team .carousel .imgDiv .imgHidden .iconDiv {
+    display: flex;
+    margin-top: 10px;
+}
+.team .carousel .imgDiv .imgHidden .iconDiv .iconBallDiv {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .team .carousel .imgDiv:hover {
     cursor: pointer;
+}
+.team .carousel .imgDiv .imgHidden .iconDiv .iconBallDiv:hover {
+    background-color: #0CB4CE;
+    border-color: #0CB4CE;
+    transition: 500ms;
 }
 
 .imgDiv:hover img {

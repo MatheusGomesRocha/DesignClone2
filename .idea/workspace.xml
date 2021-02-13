@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="413196ad-e5cc-4a0e-b8d4-156a09b8265a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/svg/facebook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/svg/instagram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/svg/linkedin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Team.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Team.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
