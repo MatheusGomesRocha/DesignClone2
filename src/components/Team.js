@@ -2,6 +2,7 @@ import {useState} from "react";
 import './Team.css';
 import perfil1 from '../img/perfil1.jpg';
 import perfil2 from '../img/perfil4.jpg';
+import {Carousel} from 'react-responsive-carousel';
 
 export default () => {
     const [imgHover1, setImgHover1] = useState(false);
