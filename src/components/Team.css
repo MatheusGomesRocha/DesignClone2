@@ -5,33 +5,29 @@
     flex-direction: column;
 }
 
-/**
-.team .divText {
+/** Div Top, onde fica o texto */
+.team .divText {    /* Div Father */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-.team .divText .top {
+.team .divText .top {   /* Div Children no Topo com texto e a linha azul*/
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 50%;
 }
-
-.team .divText .top .bigText {
+.team .divText .top .bigText {      /* Texto grande (título) */
     font-size: 50px;
 }
-
-.team .divText .top .line {
+.team .divText .top .line {     /* Linha abaixo do texto grande */
     width: 20%;
     height: 2px;
     border-radius: 2px;
     background-color: #0CB4CE;
     margin-top: 15px;
 }
-
-.team .divText .smallText {
+.team .divText .smallText {     /* Texto pequeno */
     margin-top: 20px;
     text-align: center;
     width: 70%;
@@ -39,8 +35,11 @@
     font-size: 17px;
     line-height: 1.5;
 }
+/** */
 
-.team .carousel {
+
+/** Div Carousel, com as imagens dos empregados *//
+.team .carousel {       /* Div Father */
     display: flex;
     grid-gap: 20px;
     padding-top: 50px;
@@ -48,19 +47,19 @@
     width: 100%;
     background-color: #fff;
 }
-.team .carousel .imgDiv {
+.team .carousel .imgDiv {       /* Div Children onde fica a img e a div escondida que mostra ao passsar mouse em cima*/
     max-height: 500px;
     width: 100%;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
 }
-.team .carousel .imgDiv .img {
+.team .carousel .imgDiv .img {      /* Imagem */
     height: 500px;
     width: 100%;
     border-radius: 10px;
 }
-.team .carousel .imgDiv .imgHidden {
+.team .carousel .imgDiv .imgHidden {        /* Div escondida mostrada ao passar mouse em cima da .imgDiv */
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -73,21 +72,21 @@
     top: 0;
     animation: fadeTeam 500ms;
 }
-.team .carousel .imgDiv .imgHidden .name {
+.team .carousel .imgDiv .imgHidden .name {      /* Nome dentro da div escondida */
     color: #fff;
     font-size: 18px;
     font-weight: bold;
 }
-.team .carousel .imgDiv .imgHidden .area {
+.team .carousel .imgDiv .imgHidden .area {      /* Area que o empregado atua, dentro da div escondida */
     color: #999;
     font-size: 15px;
     margin-top: 5px;
 }
-.team .carousel .imgDiv .imgHidden .iconDiv {
+.team .carousel .imgDiv .imgHidden .iconDiv {   /* Div com icons de redes sociais, dentro da div escondida */
     display: flex;
     margin-top: 10px;
 }
-.team .carousel .imgDiv .imgHidden .iconDiv .iconBallDiv {
+.team .carousel .imgDiv .imgHidden .iconDiv .iconBallDiv {   /* Div em formato de bola com icon, dentro da div escondida */
     height: 30px;
     width: 30px;
     border: 1px solid #fff;
@@ -97,22 +96,26 @@
     align-items: center;
     justify-content: center;
 }
+/** */
 
-.team .carousel .imgDiv:hover {
+/** Hovers */
+.team .carousel .imgDiv:hover {     /* Div com images */
     cursor: pointer;
 }
-.team .carousel .imgDiv .imgHidden .iconDiv .iconBallDiv:hover {
+.team .carousel .imgDiv .imgHidden .iconDiv .iconBallDiv:hover {        /* Div com o icon de redes sociais */
     background-color: #0CB4CE;
     border-color: #0CB4CE;
     transition: 500ms;
 }
-
-.imgDiv:hover img {
+.imgDiv:hover img {     /* Div com imagens, mas o efeito  vai só na imagem */
     transform: scale(1.1);
     transition: 250ms;
 }
+/** */
 
-@keyframes fadeTeam {
+
+/** Animation */
+@keyframes fadeTeam { /* Aparece Div escondida com efeito de fade */
     from{opacity: 0}
     to{opacity: 1;}
 }
