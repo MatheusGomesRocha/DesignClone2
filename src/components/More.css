@@ -1,56 +1,95 @@
 .more {
-    display: grid;
-    grid-template-columns: auto auto auto;
     padding-bottom: 100px;
     font-family: Candara;
     background-color: #000;
 }
 
-.more .moreItem {
+.more .gridDiv {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.more .gridDiv .moreItem {
     position: relative;
-    height: 300px;
+    height: 250px;
     overflow: hidden;
 }
 
-.more .moreItem .img {
+.more .gridDiv .moreItem .img {
     width: 100%;
-    height: 300px;
+    height: 250px;
 }
 
-.more .moreItem .imgHidden {
+.more .gridDiv .moreItem .imgHidden {
     position: absolute;
     top: 0;
     background-color: #0CB4CE;
     width: 100%;
-    min-height: 300px;
+    min-height: 250px;
     display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.more .moreItem .imgHidden .title {
+.more .gridDiv .moreItem .imgHidden .title {
     color: #fff;
     font-size: 20px;
     font-weight: bold;
 }
-.more .moreItem .imgHidden .subTitle {
+.more .gridDiv .moreItem .imgHidden .subTitle {
     color: #fff;
     margin-top: 5px;
     font-size: 14px;
 }
 
 
-.more .moreItem:hover .imgHidden {
+.more .gridDiv .moreItem:hover .imgHidden {
     cursor: pointer;
     display: flex;
     animation: fadeMore 500ms;
 }
-
-.more .moreItem:hover .img {
+.more .gridDiv .moreItem:hover .img {
     transform: scale(1.1);
     transition: 500ms;
 }
+/** */
+
+.more .bottomDiv {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 20px;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.more .bottomDiv .bottomItemDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    color: #fff;
+}
+
+.more .bottomDiv .bottomItemDiv .bottomRightDiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.more .bottomDiv .bottomItemDiv .bottomRightDiv .title{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.more .bottomDiv .bottomItemDiv .bottomRightDiv .subTitle{
+    color: #999;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+
+
 
 
 @keyframes fadeMore {

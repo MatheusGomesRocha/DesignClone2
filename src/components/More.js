@@ -16,54 +16,99 @@ export default () => {
     const [hover5, setHover5] = useState(false);
     const [hover6, setHover6] = useState(false);
 
-    return(
-        <div className={'more'}>
-            <div className={"moreItem"}>
-                <img className={"img"} src={Item2} />
-                <div  className={"imgHidden"}>
-                    <span className={"title"}>Rewind Watch App</span>
-                    <span className={"subTitle"}>Branding, Graphic</span>
+    return (
+        <div className={"more"}>
+            <div className={"gridDiv"}>
+
+                <div className={"moreItem"}>
+                    <img className={"img"} src={Item2}/>
+                    <div className={"imgHidden"}>
+                        <span className={"title"}>Rewind Watch App</span>
+                        <span className={"subTitle"}>Branding, Graphic</span>
+                    </div>
+                </div>
+
+                <div className={"moreItem"}>
+                    <img className={"img"} src={Item4}/>
+                    <div className={"imgHidden"}>
+                        <span className={"title"}>Experience Pad UI</span>
+                        <span className={"subTitle"}>Web-design, Graphic</span>
+                    </div>
+                </div>
+
+                <div className={"moreItem"}>
+                    <img className={"img"} src={Item1}/>
+                    <div className={"imgHidden"}>
+                        <span className={"title"}>PlayIt Disk Cover</span>
+                        <span className={"subTitle"}>Print, Branding</span>
+                    </div>
+                </div>
+
+                <div className={"moreItem"}>
+                    <img className={"img"} src={Item5}/>
+                    <div className={"imgHidden"}>
+                        <span className={"title"}>Sketching Fun</span>
+                        <span className={"subTitle"}>Print, Branding</span>
+                    </div>
+                </div>
+
+                <div className={"moreItem"}>
+                    <img className={"img"} src={Item6}/>
+                    <div className={"imgHidden"}>
+                        <span className={"title"}>Fabric Bag</span>
+                        <span className={"subTitle"}>Print, Graphic</span>
+                    </div>
+                </div>
+
+                <div className={"moreItem"}>
+                    <img className={"img"} src={Item3}/>
+                    <div className={"imgHidden"}>
+                        <span className={"title"}>Deer Wildfile</span>
+                        <span className={"subTitle"}>Print, Branding</span>
+                    </div>
                 </div>
             </div>
 
-            <div className={"moreItem"}>
-                <img className={"img"} src={Item4} />
-                <div className={"imgHidden"}>
-                    <span className={"title"}>Experience Pad UI</span>
-                    <span className={"subTitle"}>Web-design, Graphic</span>
+            <div className={"bottomDiv"}>
+                <div className={"bottomItemDiv"}>
+                    <div className={"bottomLeftDiv"}>
+                        AAA
+                    </div>
+                    <div className={"bottomRightDiv"}>
+                        <span className={"title"}>Stunning Design</span>
+                        <span className={"subTitle"}>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                            euismod tincidunt.
+                        </span>
+                    </div>
                 </div>
-            </div>
 
-            <div className={"moreItem"}>
-                <img className={"img"} src={Item1} />
-                <div className={"imgHidden"}>
-                    <span className={"title"}>PlayIt Disk Cover</span>
-                    <span className={"subTitle"}>Print, Branding</span>
+                <div className={"bottomItemDiv"}>
+                    <div className={"bottomLeftDiv"}>
+                        AAA
+                    </div>
+                    <div className={"bottomRightDiv"}>
+                        <span className={"title"}>Retina Optimized</span>
+                        <span className={"subTitle"}>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                            euismod tincidunt.
+                        </span>
+                    </div>
                 </div>
-            </div>
 
-            <div className={"moreItem"}>
-                <img className={"img"} src={Item5} />
-                <div className={"imgHidden"}>
-                    <span className={"title"}>Sketching Fun</span>
-                    <span className={"subTitle"}>Print, Branding</span>
+                <div className={"bottomItemDiv"}>
+                    <div className={"bottomLeftDiv"}>
+                        AAA
+                    </div>
+                    <div className={"bottomRightDiv"}>
+                        <span className={"title"}>Fast & Smooth</span>
+                        <span className={"subTitle"}>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                            euismod tincidunt.
+                        </span>
+                    </div>
                 </div>
-            </div>
 
-            <div className={"moreItem"}>
-                <img className={"img"} src={Item6} />
-                <div className={"imgHidden"}>
-                    <span className={"title"}>Fabric Bag</span>
-                    <span className={"subTitle"}>Print, Graphic</span>
-                </div>
-            </div>
-
-            <div className={"moreItem"}>
-                <img className={"img"} src={Item3} />
-                <div className={"imgHidden"}>
-                    <span className={"title"}>Deer Wildfile</span>
-                    <span className={"subTitle"}>Print, Branding</span>
-                </div>
             </div>
         </div>
     )
