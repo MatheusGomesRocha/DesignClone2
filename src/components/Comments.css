@@ -1,0 +1,62 @@
+.comments {
+    background-image: url("../img/window.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Candara;
+}
+
+.comments .commentsHidden {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.comments .center {
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: none;
+    padding: 50px 0;
+    height: 400px;
+}
+
+.comments .center .comment {
+    color: #ddd;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5;
+    width: 70%;
+}
+
+.comments .center .name {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    width: 70%;
+}
+
+.comments .center .area {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 10px;
+    width: 70%;
+}
+
+
+/** Carousel Library */
+.carousel .slide {          /* Tira o background preto do Component */
+    background: none;
+}
+/** */
