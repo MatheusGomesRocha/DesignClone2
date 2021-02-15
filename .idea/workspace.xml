@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="413196ad-e5cc-4a0e-b8d4-156a09b8265a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/img/skills_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/window.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/svg/compass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/svg/physics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/svg/telescope.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/More.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/More.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/More.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/More.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/svg/physics.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/svg/telescope.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +55,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mathe\Documents\design2\src\svg" />
+      <recent name="C:\Users\mathe\Documents\design2\src\img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -64,7 +72,8 @@
       <workItem from="1613054438543" duration="4798000" />
       <workItem from="1613079067850" duration="2754000" />
       <workItem from="1613141185533" duration="2395000" />
-      <workItem from="1613232238822" duration="3823000" />
+      <workItem from="1613232238822" duration="4083000" />
+      <workItem from="1613398724367" duration="2311000" />
     </task>
     <servers />
   </component>

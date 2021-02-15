@@ -44,16 +44,6 @@
 }
 
 
-.more .gridDiv .moreItem:hover .imgHidden {
-    cursor: pointer;
-    display: flex;
-    animation: fadeMore 500ms;
-}
-.more .gridDiv .moreItem:hover .img {
-    transform: scale(1.1);
-    transition: 500ms;
-}
-/** */
 
 .more .bottomDiv {
     display: grid;
@@ -74,7 +64,7 @@
 .more .bottomDiv .bottomItemDiv .bottomRightDiv {
     display: flex;
     flex-direction: column;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
 .more .bottomDiv .bottomItemDiv .bottomRightDiv .title{
@@ -90,6 +80,17 @@
 
 
 
+/* Hovers */
+.more .gridDiv .moreItem:hover .imgHidden {
+    cursor: pointer;
+    display: flex;
+    animation: fadeMore 500ms;
+}
+.more .gridDiv .moreItem:hover .img {
+    transform: scale(1.1);
+    transition: 500ms;
+}
+/** */
 
 
 @keyframes fadeMore {
