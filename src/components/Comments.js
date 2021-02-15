@@ -1,4 +1,6 @@
 import './Comments.css';
+import AspaIcon from '../svg/aspa';
+
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {Carousel} from 'react-responsive-carousel';
 
@@ -33,7 +35,7 @@ export default () => {
                       showThumbs={false}>
                 {array.map((item, k) => (
                     <div key={k} className={"center"}>
-                        <span>AAA</span>
+                        <AspaIcon />
                         <span className={"comment"}>"{item.comment}"</span>
 
                         <span className={"name"}>{item.name}</span>

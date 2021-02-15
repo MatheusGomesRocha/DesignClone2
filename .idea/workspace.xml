@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="413196ad-e5cc-4a0e-b8d4-156a09b8265a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Comments.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/svg/aspa.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Team.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Comments.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Comments.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Comments.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
       <workItem from="1613141185533" duration="2395000" />
       <workItem from="1613232238822" duration="4083000" />
       <workItem from="1613398724367" duration="3192000" />
-      <workItem from="1613412062376" duration="2425000" />
+      <workItem from="1613412062376" duration="2736000" />
     </task>
     <servers />
   </component>
@@ -102,6 +101,12 @@
           <line>14</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/svg/aspa.js</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
