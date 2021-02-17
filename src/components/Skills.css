@@ -1,0 +1,64 @@
+.skills {
+    background-image: url("../img/skills_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    font-family: Candara;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 40% 40%;
+    grid-gap: 50px;
+}
+
+.skills .skillsHidden {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+}
+
+.skills .left {
+    z-index: 999;
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills .left .title {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.skills .left .content {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.animatedNumber {
+    height: 300px;
+    background-color: #000;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 30px;
+}
+
+.animatedNumber .itemDiv {
+    color: #0CB4CE;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.animatedNumber .itemDiv .text {
+    font-size: 25px;
+    color: #fff;
+}

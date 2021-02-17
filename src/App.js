@@ -4,6 +4,7 @@ import About from "./components/About";
 import Team from "./components/Team";
 import More from "./components/More";
 import Comments from "./components/Comments";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <About />
 
       <Team />
+
+      <Skills />
 
       <More />
 
